@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+</head>
+<body>
+    <div class="todo-app">
+        <div class="title">Todo App</div>
+        <div class="todo-form">
+            <input type="text" class="todo-input">
+            <!-- <button>Add Todo</button> -->
+             <div class="todo-button">Add Todo</div>
+        </div>
+    </div>
+    
+    <style>
+      body {
+        background: linear-gradient(
+            to right, 
+            rgb(113, 65, 168),
+            rgba(44, 114, 251, 1)
+        );
+      }
+      .todo-app {
+        width: 98%;
+        height: 500px;
+        box-sizing: border-box;
+        background-color: white;
+        margin-top: 40px; 
+        border-radius: 8px;
+        margin-left: 1%;
+      }
+      .title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 20px 0;
+      }
+      .todo-form {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      .todo-input {
+        border: 1px solid #dfe1e5;
+        width: 60%;
+        height: 50px;
+        outline: none;
+        border-radius: 20px 0 0 20px;
+      }
+      .todo-button {
+        border: 1px solid #dfe1e5;
+        border-radius: 0 20px 20px 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(
+            to right, 
+            rgb(113, 65, 168),
+            rgba(44, 114, 251, 1)
+        );
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        user-select: none;
+        
+      }
+    </style>
+</body>
+</html>
